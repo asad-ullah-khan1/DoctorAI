@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unyarn-*
+
+# IDE
+.idea
+.vscode
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+lib/
